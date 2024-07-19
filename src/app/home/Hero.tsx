@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FlexboxSpacer } from "components/FlexboxSpacer";
 import { AutoTypingResume } from "home/AutoTypingResume";
-import { useState } from "react";
+// import { useState } from "react";
 
 export const Hero = () => {
   // const [toggleLogin, setToggleLogin] = useState(false);

@@ -1,13 +1,11 @@
 import Link from "next/link";
 import { FlexboxSpacer } from "components/FlexboxSpacer";
 import { AutoTypingResume } from "home/AutoTypingResume";
-import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 export const Hero = () => {
   // const [toggleLogin, setToggleLogin] = useState(false);
   
-
   return (
     <section className="lg:flex lg:h-[825px] lg:justify-center">
       <FlexboxSpacer maxWidth={75} minWidth={0} className="hidden lg:block" />

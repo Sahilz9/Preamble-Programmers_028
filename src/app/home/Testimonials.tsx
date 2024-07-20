@@ -1,6 +1,6 @@
 "use client";
 import heartSrc from "public/assets/heart.svg";
-import testimonialSpiegelSrc from "public/assets/testimonial-spiegel.jpg";
+import SaifTestimonialSrc from "public/assets/SaifTestimonial.png";
 import testimonialSantiSrc from "public/assets/testimonial-santi.jpg";
 import testimonialVivianSrc from "public/assets/testimonial-vivian.jpg";
 import React, { useEffect, useRef, useState } from "react";
@@ -9,7 +9,7 @@ import { useTailwindBreakpoints } from "lib/hooks/useTailwindBreakpoints";
 
 const TESTIMONIALS = [
   {
-    src: testimonialSpiegelSrc,
+    src: SaifTestimonialSrc,
     quote:
       "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. Preamble Resume auto format feature is a great help to ensure consistent format.",
     name: "Mohd Saiful Islam",

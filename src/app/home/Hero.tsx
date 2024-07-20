@@ -5,7 +5,7 @@ import { AutoTypingResume } from "home/AutoTypingResume";
 
 export const Hero = () => {
   // const [toggleLogin, setToggleLogin] = useState(false);
-  
+
   return (
     <section className="lg:flex lg:h-[825px] lg:justify-center">
       <FlexboxSpacer maxWidth={75} minWidth={0} className="hidden lg:block" />
@@ -23,7 +23,8 @@ export const Hero = () => {
         </Link>
         <p className="ml-6 mt-3 text-sm text-gray-600">
           <Link href="/signin">
-          <button className="bg-primary border-black p-2 px-4 rounded-xl mt-4" >Log in</button>
+            {/* <button className="bg-primary mt-4 rounded-full border-black p-2 px-8"> */}
+            <button className="btn-primary ">Log in</button>
           </Link>
         </p>
         {/* <p className="mt-3 text-sm text-gray-600 lg:mt-36">

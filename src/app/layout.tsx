@@ -27,9 +27,9 @@ export default function RootLayout({
       <body>
         {/* <SignedIn> */}
         <TopNavBar />
-        <SessionProvider>
+        {/* <SessionProvider> */}
         {children}
-        </SessionProvider>
+        {/* </SessionProvider> */}
         <Analytics />
         {/* </SignedIn> */}
       </body>

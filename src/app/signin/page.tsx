@@ -4,35 +4,34 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import preambleLogo from "../preambleLogo.png"
 import Image from 'next/image';
-// import {useNavigate} from "react-router-dom"
 
 export default function Signin() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const router = useRouter();
-  // const navigate = useNavigate();
 
-
-  const handleNavigate = () => {
-    // console.log("Routing........................")
-    signIn('credentials', {email, password, redirect: true})
-    // return router.push("/");
-    window.location.href = "/resume-import";
+  const handleNavigate = async () => {
+    const result = await signIn('credentials', { email, password, redirect: false });
+    if (result?.ok) {
+      router.push("/resume-import");
+    } else {
+      // Handle sign-in error
+      console.error(result?.error || 'Sign-in failed');
+    }
   }
+
   return (
     <>
-    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          
-
-            <div className='flex justify-center'>
+          <div className='flex justify-center'>
             <Image
-            src={preambleLogo}
-            alt="OpenResume Logo"
-            className="h-10 w-10"
-            priority
-          />
-            </div>
+              src={preambleLogo}
+              alt="OpenResume Logo"
+              className="h-10 w-10"
+              priority
+            />
+          </div>
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-black ">
             Sign in to your account
           </h2>

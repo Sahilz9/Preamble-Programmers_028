@@ -26,11 +26,7 @@ const FEATURES = [
     title: "Open-Source",
     text: (
       <>
-        Preamble Resume is an open-source project, and its source code can be viewed
-        by anyone on its{" "}
-        <Link href="https://github.com/xitanggg/open-resume">
-          GitHub repository
-        </Link>
+        Preamble Resume is an open-source project.
       </>
     ),
   },

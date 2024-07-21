@@ -32,3 +32,26 @@
   --resume-control-bar-height: 3rem;
   --resume-padding: 1.5rem;
 }
+
+
+#login-btn{
+  background-image: linear-gradient(to right, rgb(93, 82, 217) 51%, #78A1E8);
+  margin: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 9999px;
+  display: block;
+}
+
+
+#login-btn:hover{
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+

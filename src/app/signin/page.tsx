@@ -16,7 +16,8 @@ export default function Signin() {
       router.push("/resume-import");
     } else {
       // Handle sign-in error
-      console.error(result?.error || 'Sign-in failed');
+      // console.error(result?.error || 'Sign-in failed');
+      alert('Sign-in failed');
     }
   }
 

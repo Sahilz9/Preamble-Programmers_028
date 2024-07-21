@@ -1,6 +1,7 @@
 {
-  "/signin/page": "app/signin/page.js",
-  "/signup/page": "app/signup/page.js",
   "/page": "app/page.js",
-  "/forgot-password/page": "app/forgot-password/page.js"
+  "/signin/page": "app/signin/page.js",
+  "/forgot-password/page": "app/forgot-password/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/signup/page": "app/signup/page.js"
 }

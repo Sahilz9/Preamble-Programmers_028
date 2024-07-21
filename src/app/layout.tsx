@@ -1,7 +1,7 @@
 import "globals.css";
 import { TopNavBar } from "components/TopNavBar";
 import { Analytics } from "@vercel/analytics/react";
-import SessionProvider from "./SessionProvider"
+import SessionProvider from "./SessionProvider";
 // import {
 //   ClerkProvider,
 //   SignIn,
@@ -27,9 +27,9 @@ export default function RootLayout({
       <body>
         {/* <SignedIn> */}
         <TopNavBar />
-        <SessionProvider>
+        {/* <SessionProvider> */}
         {children}
-        </SessionProvider>
+        {/* </SessionProvider> */}
         <Analytics />
         {/* </SignedIn> */}
       </body>

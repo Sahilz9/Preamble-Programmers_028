@@ -8,12 +8,12 @@ import { signOut, useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
 
 export default function Home() {
-  const session = useSession({
-    required: true,
-    onUnauthenticated() {
-      redirect("/signin");
-    },
-  });
+  // const session = useSession({
+  //   required: true,
+  //   onUnauthenticated() {
+  //     redirect("/signin");
+  //   },
+  // });
 
   return (
     <main className="mx-auto max-w-screen-2xl bg-dot px-8 pb-32 text-gray-900 lg:px-12">

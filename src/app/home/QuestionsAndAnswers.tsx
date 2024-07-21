@@ -2,8 +2,13 @@ import { Link } from "components/documentation";
 
 import { useState } from "react";
 
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 export const QAS = () => {
-  const faqData = [
+  const faqData: FAQItem[] = [
     {
       question:
         "What is a resume builder? Why is a resume builder better than a resume template doc?",
@@ -26,7 +31,7 @@ export const QAS = () => {
     Array(faqData.length).fill(false)
   );
 
-  const toggleMenu = (index) => {
+  const toggleMenu = (index: number) => {
     setVisibleAnswers((prevState) => {
       const newState = [...prevState];
       newState[index] = !newState[index];

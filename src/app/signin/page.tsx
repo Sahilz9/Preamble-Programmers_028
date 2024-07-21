@@ -4,11 +4,21 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import preambleLogo from "../preambleLogo.png"
 import Image from 'next/image';
+import {useNavigate} from "react-router-dom"
 
 export default function Signin() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const router = useRouter();
+  // const navigate = useNavigate();
+
+
+  const handleNavigate = () => {
+    // console.log("Routing........................")
+    signIn('credentials', {email, password, redirect: true})
+    // return router.push("/");
+    window.location.href = "/resume-import";
+  }
   return (
     <>
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -73,7 +83,7 @@ export default function Signin() {
 
             <div>
               <button
-                onClick={() => signIn('credentials', {email, password, redirect: true, callbackUrl: '/'})}
+                onClick={handleNavigate}
                 disabled={!email || !password}
                 className="disabled:opacity-100 cursor-pointer flex w-full justify-center rounded-md bg-indigo-500 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >

@@ -112,14 +112,12 @@ Happy Coding
 ```
 
 ## Glimpse of our project
-![git readme001](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/a652197f-1ca1-4fc5-be25-6a8ff7e09b70)
-![git readme002](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/c4fae657-fb8a-4054-b756-34d879a50f42)
-![git readme003](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/64fde13a-1fb3-43c4-95bd-9389bd860d56)
-![git readme004](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/6368514e-1b4d-4e65-844e-933fb11e7269)
-![git readme005](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/876d9420-3144-4588-b0aa-1d1e77f016a3)
-![git readme006](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/541bb747-7f98-4056-9671-53d96722b10a)
-![git readme007](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/1e039cca-8703-4a2b-a555-4b3df50c6706)
-![git readme008](https://github.com/Sahilz9/Salesforce-Sages_084/assets/103746983/1708718f-075a-4cbc-bfc0-6388e6d8addb)
+![Screenshot from 2024-07-22 12-53-09](https://github.com/user-attachments/assets/c7e4df78-bff0-4f0a-80f0-e4212f5ba4ad)
+![Screenshot from 2024-07-22 12-58-11](https://github.com/user-attachments/assets/4bcc232a-d283-4991-917a-8b547334cd52)
+![Screenshot from 2024-07-22 12-53-38](https://github.com/user-attachments/assets/9ea2ad85-24ae-4659-bbd0-15d399217607)
+![Screenshot from 2024-07-22 12-53-24](https://github.com/user-attachments/assets/b8315d89-fdb4-4a66-b727-7509030ede9d)
+![Screenshot from 2024-07-22 12-57-32](https://github.com/user-attachments/assets/c3130a46-43e5-468a-a353-21f129550b65)
+
 
 
 

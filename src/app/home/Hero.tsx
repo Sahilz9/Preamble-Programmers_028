@@ -3,10 +3,9 @@ import { FlexboxSpacer } from "components/FlexboxSpacer";
 import { AutoTypingResume } from "home/AutoTypingResume";
 // import { useState } from "react";
 
-
 export const Hero = () => {
   // const [toggleLogin, setToggleLogin] = useState(false);
-  
+
   return (
     <section className="lg:flex lg:h-[825px] lg:justify-center">
       <FlexboxSpacer maxWidth={75} minWidth={0} className="hidden lg:block" />
@@ -19,12 +18,16 @@ export const Hero = () => {
         <p className="mt-3 text-lg lg:mt-5 lg:text-xl">
           With this free, open-source, and powerful resume builder
         </p>
-        <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14" id="create-resume-btn">
+        <Link
+          href="/resume-import"
+          className="btn-primary mt-6 lg:mt-14"
+          id="create-resume-btn"
+        >
           Create Resume <span aria-hidden="true">→</span>
         </Link>
         <p className="ml-6 mt-3 text-sm text-gray-600">
           <Link href="/signin">
-          <button className="btn-primary px-4 lg:mt-8">Log in</button>
+            <button className="btn-primary px-8 ">Log in</button>
           </Link>
         </p>
         {/* <p className="mt-3 text-sm text-gray-600 lg:mt-36">

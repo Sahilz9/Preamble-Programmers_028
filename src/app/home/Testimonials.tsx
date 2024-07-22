@@ -1,32 +1,32 @@
 "use client";
 import heartSrc from "public/assets/heart.svg";
-import testimonialSpiegelSrc from "public/assets/testimonial-spiegel.jpg";
-import testimonialSantiSrc from "public/assets/testimonial-santi.jpg";
-import testimonialVivianSrc from "public/assets/testimonial-vivian.jpg";
+import testimonialSaifSrc from "public/assets/testimonialSaif.png";
+import testimonialSahilSrc from "public/assets/IMG_0046.jpg";
+import testimonialSathwikSrc from "public/assets/testimonialSathwik.jpeg";
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTailwindBreakpoints } from "lib/hooks/useTailwindBreakpoints";
 
 const TESTIMONIALS = [
   {
-    src: testimonialSpiegelSrc,
+    src: testimonialSaifSrc,
     quote:
       "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. Preamble Resume auto format feature is a great help to ensure consistent format.",
-    name: "Ms. Spiegel",
+    name: "Mohd Saiful Islam",
     title: "Educator",
   },
   {
-    src: testimonialSantiSrc,
+    src: testimonialSahilSrc,
     quote:
       "I used Preamble Resume during my last job search and was invited to interview at top tech companies such as Google and Amazon thanks to its slick yet professional resume design.",
-    name: "Santi",
+    name: "Sahil Yadav",
     title: "Software Engineer",
   },
   {
-    src: testimonialVivianSrc,
+    src: testimonialSathwikSrc,
     quote:
       "Creating a professional resume on Preamble Resume is so smooth and easy! It saves me so much time and headache to not deal with google doc template.",
-    name: "Vivian",
+    name: "Sathwik Reddy",
     title: "College Student",
   },
 ];
@@ -63,7 +63,7 @@ export const Testimonials = ({ children }: { children?: React.ReactNode }) => {
   }, [isLg]);
 
   return (
-    <section className="mx-auto -mt-2 px-8 pb-24">
+    <section className="mx-auto mt-12 px-8 pb-4">
       <h2 className="mb-8 text-center text-3xl font-bold">
         People{" "}
         <Image src={heartSrc} alt="love" className="-mt-1 inline-block w-7" />{" "}

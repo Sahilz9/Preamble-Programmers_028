@@ -9,7 +9,7 @@ Frontend
 ## Technology Stack
 Technologies used in the project.
 
-<img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/js_redux/js_redux-icon.svg" alt="photoshop" width="40" height="40"/>  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/json/json-icon.svg" alt="photoshop" width="40" height="40"/> 
+<img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/js_redux/js_redux-icon.svg" alt="photoshop" width="40" height="40"/>  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg" alt="photoshop" width="40" height="40"/>
 
 ## Deployed App 
 ```bash
@@ -34,42 +34,73 @@ npm run dev
 
 
 ## Features
-Key features of the application.
+### Key Features of the Application
 
-1. **User-Friendly Interface**: Intuitive design allowing easy navigation, search, and selection of movies, showtimes, and theaters.
-2. **Real-Time Booking**: Instant seat selection and booking confirmation with real-time updates on seat availability.
-3. **Login Authentication**: Secure user login and account management for personalized experiences and booking history.
-4. **Booking Seat Feature**: Detailed seat maps enabling users to choose their preferred seats easily.
-5. **Personalized Recommendations**: Tailored movie suggestions based on user preferences and past bookings.
-6. **Mobile Compatibility**: Fully responsive design and dedicated mobile app for seamless booking on smartphones and tablets.
+1. **User Authentication**:
+   - Users can sign up, log in, and manage their profiles using Firebase authentication.
+   - Secure user data handling and session management.
 
-## Design decisions or Assumptions
+2. **Resume Creation and Editing**:
+   - Users can create a new resume or edit an existing one.
+   - Sections for personal information, education, experience, skills, projects, and more.
+   - Dynamic form fields that can be added, removed, or reordered.
+
+3. **Real-Time Data Sync**:
+   - Data synchronization with Firebase, allowing real-time updates and persistence.
+   - Offline capabilities ensuring data is not lost during connectivity issues.
+
+4. **Downloadable Resume**:
+   - Option to download the resume in PDF format.
+   - Well-formatted, professional-looking resume templates.
+
+5. **Responsive Design**:
+   - Mobile-first design using TailwindCSS.
+   - Ensures the application is usable on various devices and screen sizes.
+
+6. **Redux for State Management**:
+   - Centralized state management using Redux.
+   - Efficient state updates and predictable state transitions.
+
+7. **User-Friendly Interface**:
+   - Intuitive and easy-to-navigate UI.
+   - Clear instructions and prompts for each section.
+
+8. **Customization Options**:
+   - Color and font customization for personal branding.
+
 ### Design Decisions and Assumptions
 
-1. **Front-End Development**:
-   - **HTML**: Structure and layout of web pages.
-   - **CSS**: Styling and responsive design for a visually appealing and user-friendly interface.
-   - **JavaScript**: Dynamic content and interactivity, including form validation and real-time seat selection updates.
+1. **Technology Stack**:
+   - TypeScript for type safety and improved code maintainability.
+   - TailwindCSS for rapid and responsive UI development.
+   - Redux for managing complex application state.
+   - Firebase for backend services including authentication, database, and storage.
 
-2. **Mock API**:
-   - **Mock Data**: Used for development and testing to simulate backend responses without needing a live server.
-   - **Flexibility**: Allows front-end and back-end development to proceed concurrently.
+2. **User Experience (UX)**:
+   - Focus on a clean and minimalistic design to avoid overwhelming users.
+   - Step-by-step guidance for each section to simplify the resume-building process.
+   - Auto-save functionality to prevent data loss.
 
-3. **HTTP Request Methods**:
-   - **GET**: Fetching movie listings, showtimes, seat availability, and user booking history.
-   - **POST**: Submitting booking details, user login information, and new user registration data.
-   - **PUT**: Updating user profiles and modifying existing bookings.
-   - **DELETE**: Canceling bookings and removing user accounts.
+3. **Assumptions**:
+   - Users have basic familiarity with form inputs and online editors.
+   - Users need a flexible and customizable resume-building experience.
+   - The application will primarily be accessed through modern web browsers.
 
-4. **User Authentication**:
-   - Secure login system to ensure personalized experiences and data privacy.
+4. **Performance Considerations**:
+   - Efficient data handling and minimal re-renders using Redux and React hooks.
+   - Optimized for fast load times and smooth interactions.
 
-5. **Real-Time Updates**:
-   - Real-time seat availability and booking confirmations to provide accurate and immediate feedback to users.
+5. **Accessibility**:
+   - Ensured accessibility standards are met to support users with disabilities.
+   - Keyboard navigable and screen reader compatible.
 
-6. **Responsive Design**:
-   - Ensuring compatibility across various devices, including desktops, tablets, and smartphones for a seamless user experience.
+6. **Security**:
+   - Secure user authentication and data storage using Firebase.
+   - Implementation of best practices for securing user information and preventing unauthorized access.
 
+7. **Scalability**:
+   - Designed to handle increasing user data and traffic efficiently.
+   - Scalable architecture using Firebase's real-time database and cloud functions.
 ## Credentials
 
 #### Github Repository Link

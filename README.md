@@ -9,7 +9,7 @@ Frontend
 ## Technology Stack
 Technologies used in the project.
 
-<img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="photoshop" width="40" height="40"/>  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/json/json-icon.svg" alt="photoshop" width="40" height="40"/> 
+<img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/js_redux/js_redux-icon.svg" alt="photoshop" width="40" height="40"/>  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg" alt="photoshop" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/json/json-icon.svg" alt="photoshop" width="40" height="40"/> 
 
 ## Deployed App 
 ```bash
@@ -70,26 +70,11 @@ Key features of the application.
 6. **Responsive Design**:
    - Ensuring compatibility across various devices, including desktops, tablets, and smartphones for a seamless user experience.
 
-## Installation & Getting started
-###### Run go live server with index.html file & the json-server command
-```bash
-json-server --watch db.json
-```
-
-## Usage
-How to use your project.
-
-```bash
-After the above process
-```
-![image](https://github.com/Sahilz9/Construct-week-b35/assets/103746983/b7f207b3-9089-4da4-a459-a2c58de141fb)
-
-
 ## Credentials
 
 #### Github Repository Link
 ```bash
-https://github.com/Sahilz9/Salesforce-Sages_084.git
+github.com/Sahilz9/Preamble-Programmers_028.git
 ```
 ```bash
 Happy Coding

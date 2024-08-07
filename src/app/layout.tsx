@@ -26,10 +26,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {/* <SignedIn> */}
-        <TopNavBar />
         {/* <SessionProvider> */}
-        {children}
         {/* </SessionProvider> */}
+        <TopNavBar />
+        {children}
         <Analytics />
         {/* </SignedIn> */}
       </body>
